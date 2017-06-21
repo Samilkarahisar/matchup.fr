@@ -1,0 +1,286 @@
+* { 
+    margin: 0px; 
+    padding: 0px; 
+} 
+
+
+
+body{
+background-color: #f1f1f1;
+}
+div#container{
+width:%100;
+height:%100;
+margin:auto;
+background-color: #f1f1f1;
+}
+
+
+header{
+
+width:350px;
+background-color: white;
+border-style: solid;
+border: none;
+overflow:auto;
+position:fixed;
+border-right: solid 1px #dadada;
+}
+
+#main {
+background-color: #f1f1f1;
+min-height:300px;
+
+}
+#logo{ 
+cursor:pointer;
+width:83px;
+height:44px;
+float:left;
+margin-left:140px;
+}
+img{
+max-width:100%;
+max-height:100%;
+}
+#feedtable  {
+
+    border-collapse: collapse;
+     font-family: 'Trebuchet MS', sans-serif;
+    
+font-size:13px;
+    table-layout: auto;
+    width: 100%;
+}
+
+#feedtable  td, #feedtable th {
+   
+    padding: 4px;
+}
+
+#feedtable tr:nth-child(even){background-color: #f2f2f2}
+
+#feedtable tr:hover {background-color: #ddd;}
+
+#feedtable  th {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #4CAF50;
+    color: white;
+}
+#feedtable  td{
+display:inline-block;
+}
+
+#feed{
+}
+
+
+#column1{
+	margin-top:50px;
+background-color: #f1f1f1;
+width: 920px;
+float: right;
+min-height:450px;
+margin-right:50px;
+margin-bottom: 40px;
+}
+
+#sidebar{
+background-color:white;
+overflow:auto;
+height:798px;
+width:350px;
+border-right: solid 1px #dadada;
+border-bottom: solid 1px #dadada;
+position:absolute;
+}
+
+
+#oldtext{
+    width:840px;
+    height:200px;
+    padding-left:10px;
+}
+
+#field{
+
+     font-family: 'Trebuchet MS', sans-serif;
+    
+margin:auto;
+resize:none;
+width:920px;
+height:570px;
+font-size:14px;
+background-color: #f1f1f1;
+border: none;
+outline: none;
+color: black;
+}
+
+#butts{
+
+padding-top:13px;
+padding-right:10px;
+float:right;
+}
+#hcontainer{
+padding-top:30px;
+}
+
+#btnn{
+
+}
+span{
+font-family: 'Roboto', sans-serif;
+color: black;
+font-size:14px;
+}
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
+.myButton {
+width:auto;
+	-moz-box-shadow:inset 0px 1px 0px 0px #ff4000;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ff4000;
+	box-shadow:inset 0px 1px 0px 0px #ff4000;
+	background-color:#ff2828;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:2px;
+	border:none;
+	display:inline-block;
+	cursor:pointer;
+	color:#f1f1f1;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #854629;
+}
+
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+#logpls{
+margin-top:320px;
+font-family: 'Roboto', sans-serif;
+color: #ff2828;
+font-size:20px;
+
+}
+
+#ttled{
+font-family: 'Roboto', sans-serif;
+font-size:38px;
+font-weight: 900; 
+}
+
+
+#credited{
+padding-left:10px;
+font-family: 'Roboto', sans-serif;
+font-size:12px;
+font-weight: 900;
+float:right;
+color :red;
+ 
+}
+
+#redtd{ 
+text-align:right;
+color:red;
+}
+#redtd2{ 
+text-align:right;
+
+}
+#nb2{
+
+text-align:right;
+}
+
+p {
+
+display:inline-block;
+text-align:left;
+margin: 0 0 1.2em;
+padding: 0;
+}
+
+#chatbox{
+   font-family: 'Trebuchet MS', sans-serif;
+font-size:14px;
+background-color: white;
+height:700px;
+width:342px;
+border-right: solid 1px #dadada;
+ padding: 4px;
+overflow:auto;
+}
+
+#forbold{
+font-family: 'Roboto', sans-serif;
+font-size:30px;
+font-weight: 900; 
+cursor:pointer;
+}
+
+#left{
+position:fixed;
+margin-top:44px;
+
+}
+#icontaintc{
+height:%100;
+}
+#chatcon{
+
+background-color:white;
+border-right: solid 1px #dadada;
+border-bottom: solid 1px #dadada;
+}
+.chattextbox{
+background-color:white;
+border: solid 1px #dadada;
+
+}
+.myButton2 {
+	height:25px;
+	
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:2px;
+	border:none;
+	
+	cursor:pointer;
+	color:white;
+	font-family:Arial;
+	font-size:10px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+}
+
+#marginal{
+padding-left:340px;
+font-family: 'Roboto', sans-serif;
+font-size:20px;
+font-weight: 900; 
+}
+
+#redborder{
+color:red;
+}
+#grayborder{
+color:black;
+}
+
+#spantop{
+padding-top:20px;
+padding-bottom:20px;
+}
